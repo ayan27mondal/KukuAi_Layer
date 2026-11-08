@@ -260,6 +260,8 @@ flowchart LR
 | `chroma_db/` | Local index data | Persistent vector-index files when the optional ChromaDB backend is used |
 | `tests/` | Quality checks | Offline unit tests, evaluation cases, an evaluation runner, and saved evaluation outputs |
 | `docs/DEMO_SCRIPT.md` | Demo guide | Suggested three-minute product demonstration |
+| `docs/AI_Lawyer_Project_Report.pdf` | Project report | Submission-ready overview of the project, architecture, deployment, and test results |
+| `docs/AI_Lawyer_End_to_End_Pipeline.pdf` | Pipeline guide | Visual walkthrough of the end-to-end processing flow, safety branches, retrieval, and outputs |
 
 ### Features and boundaries
 
