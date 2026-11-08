@@ -1,0 +1,40 @@
+LEGAL NOTICE
+(By Registered Post A.D. / Speed Post, and by email / WhatsApp)
+
+Date: {{ today }}
+
+To,
+{{ other_party_name }}
+{{ other_party_address }}
+
+From,
+{{ user_name }}
+{{ user_address }}
+Contact: {{ user_contact }}
+
+Subject: Notice demanding refund of security deposit of Rs. {{ amount }}/-
+
+Sir/Madam,
+
+I, {{ user_name }}, give you this notice for the following reasons:
+
+1. I was your tenant in the premises at {{ premises_address }}.{% if start_date %} The tenancy began on {{ start_date }}.{% endif %}
+
+2. At the start of the tenancy I paid you a security deposit of Rs. {{ amount }}/-{% if payment_mode %} by {{ payment_mode }}{% endif %}. {{ agreement_sentence }}
+
+3. I vacated the premises and handed back possession on {{ event_date }}.
+
+4. Despite my requests{% if requests_summary %} ({{ requests_summary }}){% endif %}, you have not refunded the security deposit and you have not given me any itemised statement of lawful deductions with supporting bills.
+
+5. Brief facts as I understand them: {{ what_happened }}
+
+You are therefore called upon to pay me Rs. {{ amount }}/- within {{ days }} days of receiving this notice. If you claim any deduction, send me an itemised statement with bills or proof within the same period.
+
+If you fail to do so, I shall be compelled to take appropriate legal steps for recovery of the amount, together with interest and costs, entirely at your risk and cost.
+
+Yours faithfully,
+
+{{ user_name }}
+Signature: ______________________
+
+Enclosures: {{ enclosures }}

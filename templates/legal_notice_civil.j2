@@ -1,0 +1,45 @@
+LEGAL NOTICE
+(By Registered Post A.D. / Speed Post, and by email / WhatsApp)
+
+Date: {{ today }}
+
+To,
+{{ other_party_name }}
+{{ other_party_address }}
+
+From,
+{{ user_name }}
+{{ user_address }}
+Contact: {{ user_contact }}
+
+Subject: Legal notice for {{ subject }}
+
+Sir/Madam,
+
+I, {{ user_name }}, give you this notice for the following reasons:
+
+1. {% if agreement == "written" %}We entered into a written agreement{% if start_date %} on {{ start_date }}{% endif %}, and the background is as follows: {{ what_happened }}{% else %}We had an understanding / agreement, and the background is as follows: {{ what_happened }}{% endif %}
+
+2. As per the agreement, you were obligated to {{ obligation }}. However, you have failed to do so.
+
+3. The breach occurred on {{ event_date }}. Despite my requests{% if requests_summary %} ({{ requests_summary }}){% endif %}, you have not remedied the breach.
+
+4. As a result of your breach, I have suffered loss and damage amounting to Rs. {{ amount }}/-.
+
+You are hereby called upon to:
+(a) Remedy the breach / pay the amount of Rs. {{ amount }}/- within {{ days }} days of receipt of this notice;
+(b) Provide a written response explaining your position within the same period.
+
+If you fail to comply with this notice, I shall be constrained to initiate appropriate legal proceedings against you for:
+- Specific performance of the contract / Recovery of the amount with interest;
+- Damages for breach of contract;
+- Costs of proceedings;
+
+all at your risk and cost. This notice is without prejudice to my rights and remedies under law.
+
+Yours faithfully,
+
+{{ user_name }}
+Signature: ______________________
+
+Enclosures: {{ enclosures }}

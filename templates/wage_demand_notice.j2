@@ -1,0 +1,38 @@
+DEMAND NOTICE FOR UNPAID SALARY
+(By Registered Post A.D. / Speed Post, and by email to the employer and HR)
+
+Date: {{ today }}
+
+To,
+{{ other_party_name }}
+{{ other_party_address }}
+
+From,
+{{ user_name }}
+{{ user_address }}
+Contact: {{ user_contact }}
+
+Subject: Demand for payment of unpaid salary of Rs. {{ amount }}/-
+
+Sir/Madam,
+
+I, {{ user_name }}, give you this notice:
+
+1. I work / worked with you as {{ designation }}.{% if start_date %} My employment began on {{ start_date }}.{% endif %}
+
+2. My salary for {{ period }}, amounting to Rs. {{ amount }}/-, has not been paid. I last received my salary on {{ event_date }}.
+
+3. {{ resignation_sentence }}{{ agreement_sentence }}
+
+4. Brief facts as I understand them: {{ what_happened }}
+
+You are called upon to pay the full unpaid amount of Rs. {{ amount }}/- to my bank account within {{ days }} days of receiving this notice.
+
+If I do not receive payment, I will be compelled to approach the labour authorities and take other legal steps to recover my dues.
+
+Yours faithfully,
+
+{{ user_name }}
+Signature: ______________________
+
+Enclosures: {{ enclosures }}

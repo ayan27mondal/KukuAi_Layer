@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+generated/
+chroma_db/
+tests/outputs/
+.streamlit/secrets.toml
